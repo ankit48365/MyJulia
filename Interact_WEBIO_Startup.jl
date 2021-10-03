@@ -1,13 +1,14 @@
 using Pkg
 
-Pkg.add("Conda")
-Pkg.add("Interact")
-Pkg.add("WebIO")
+Pkg.add("IJulia")
+#Pkg.add("Conda")
+#Pkg.add("Interact")
+#Pkg.add("WebIO")
 
-using Conda
-using WebIO
-using Interact
+#using Conda
+#using WebIO
+#using Interact
 
-Conda.pip_interop(true)
-Conda.pip("install", "webio_jupyter_extension")
+#Conda.pip_interop(true)
+#Conda.pip("install", "webio_jupyter_extension")
 
